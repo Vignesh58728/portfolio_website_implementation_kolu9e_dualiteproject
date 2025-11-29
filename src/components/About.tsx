@@ -19,7 +19,7 @@ export const About = () => {
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-secondary to-primary rounded-full opacity-20 blur-2xl"></div>
               <img 
-                src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/c326/c57d/3360aeac03692f1e912e8b412ab1b96e?Expires=1765152000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HF-sxVm-tjVAE0-jc1LIh8S5WaiDHqByPbnI79B8IttqDKGfU~porXlOheyM7fttbT-zdUn2x9J5B26L0R3kbXYh2Staf4RGnVYEJYxGCuMTzpWu5Iz8U0ru1-qF3bWXZUShCo5TdEQWHvOqIsPH6QVilcxMsar8y2E~M0T2qVQKJtbbVsOS1~2dEn8chN57o6s8Gd49SJ21YYYrAz-lUo9MTuJNK0NbYLqtiy2-3bvCpmrArVe-KF-HihO6qUHrH1YarigrcwomkRLV-llr-0D4p-Ln6k5HGBavlipo9X4nETtfibToz3OSymENWrfgTTiYmdDl9~PEqnpsZgOp6w__" 
+                src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/c326/c57d/3360aeac03692f1e912e8b412ab1b96e?Expires=1765152000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HF-sxVm-tjVAE0-jc1LIh8S5WaiDHqByPbnI79B8IttqDKGfU~porXlOheyM7fttbT-zdUn2x9J5B26L0R3kbXYh2Staf4RGnVYEJYxGCuMTzpWu5Iz8U0ru1-qF3bWXZUShCo5TdEQWHvOqIsPH6QVilcxMsar8y2E~M0T2qVQKJtbbVsOS1~2dEn8chN57o6s8Gd49SJ21YYYrAz-lUo9MTuJNK0NbYLqtiy2-3bvCpmrArVe-KF-HihO6qUHrH1YarigrcwomkRLV-llr-0D4p-Ln6k5HGBavlipo9X4nETtfibToz3OSymENWrfgTTiYmdDl9~PEqnpsZgOp6w__" 
                 alt="About Me" 
                 className="w-full h-full object-cover rounded-full border-8 border-white shadow-xl"
               />

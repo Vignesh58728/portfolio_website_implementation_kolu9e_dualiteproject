@@ -61,13 +61,7 @@ export const Contact = () => {
           
           {/* Left Info */}
           <div className="lg:w-1/3 space-y-8">
-            <div>
-              <h2 className="font-work font-semibold text-4xl text-dark-100 mb-4">Let's discuss your Project</h2>
-              <p className="font-work text-gray-500 text-lg">
-                Ready to bring your ideas to life? Contact me today and let's start building something amazing together.
-              </p>
-            </div>
-
+            
             <div className="space-y-4">
               {/* Address Card */}
               <div className="bg-white p-6 rounded-lg shadow-lg flex items-start gap-4">
@@ -129,7 +123,7 @@ export const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full border-b-2 border-primary bg-transparent focus:outline-none py-2" 
+                    className="w-full border-b-2 border-primary bg-transparent focus:outline-none py-2 text-black" 
                   />
                 </div>
                 <div className="space-y-2">
@@ -140,7 +134,7 @@ export const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors" 
+                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors text-black" 
                   />
                 </div>
               </div>
@@ -152,7 +146,7 @@ export const Contact = () => {
                   name="location"
                   value={formData.location}
                   onChange={handleChange}
-                  className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors" 
+                  className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors text-black" 
                 />
               </div>
 
@@ -165,7 +159,7 @@ export const Contact = () => {
                     value={formData.budget}
                     onChange={handleChange}
                     required
-                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors" 
+                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors text-black" 
                   />
                 </div>
                 <div className="space-y-2">
@@ -176,7 +170,7 @@ export const Contact = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors" 
+                    className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors text-black" 
                   />
                 </div>
               </div>
@@ -189,7 +183,7 @@ export const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors"
+                  className="w-full border-b-2 border-gray-200 bg-transparent focus:outline-none py-2 focus:border-primary transition-colors text-black"
                 ></textarea>
               </div>
 

@@ -68,9 +68,14 @@ const ProjectCard = ({ project }: { project: Project }) => {
             {project.description}
           </p>
           
-          <button className="bg-white text-primary px-6 py-3 rounded-md font-bold text-[10px] uppercase tracking-widest flex items-center gap-2 hover:bg-primary hover:text-white transition-colors duration-300 w-max font-michroma">
+          <a 
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-primary px-6 py-3 rounded-md font-bold text-[10px] uppercase tracking-widest flex items-center gap-2 hover:bg-primary hover:text-white transition-colors duration-300 w-max font-michroma cursor-pointer inline-flex"
+          >
             {project.type === 'image' ? 'View Projects' : 'View Project'} <ArrowRight size={14} />
-          </button>
+          </a>
         </div>
       </div>
     </motion.div>
@@ -84,35 +89,40 @@ export const Projects = () => {
       category: "UI-UX/HTML/CSS/JS",
       description: "Responsive and dynamic web applications built with modern technologies focusing on user experience and performance.",
       image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000&auto=format&fit=crop",
-      type: "image"
+      type: "image",
+      link: "https://github.com/Vignesh58728"
     },
     {
       title: "Software Project",
       category: "React.js / Native",
       description: "Cross-platform software solutions designed to solve complex business problems with scalable architecture.",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop",
-      type: "image"
+      type: "image",
+      link: "https://github.com/Vignesh58728"
     },
     {
       title: "AI/ML Project",
       category: "AI / Machine Learning",
       description: "Intelligent systems leveraging neural networks and deep learning algorithms to automate and predict outcomes.",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop",
-      type: "image"
+      type: "image",
+      link: "https://github.com/Vignesh58728"
     },
     {
       title: "Data Science",
       category: "Python / Analytics",
       description: "Extracting actionable insights from raw data through statistical analysis and visualization techniques.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-      type: "image"
+      type: "image",
+      link: "https://github.com/Vignesh58728"
     },
     {
       title: "Cloud Computing",
       category: "AWS / Azure",
       description: "Scalable cloud infrastructure setups ensuring high availability, security, and cost-optimization.",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop",
-      type: "image"
+      type: "image",
+      link: "https://github.com/Vignesh58728"
     },
     {
       title: "GITHUB",
